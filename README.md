@@ -112,3 +112,13 @@ _Important: You need to install Adobe FLash to play via Pale Moon._
    ```
    _Note: looks like binary for Ubuntu is not avaiable, and you'll need to compile it... Well, good luck._
 3. Head to CPI website, log in, blah-blah.
+
+
+## Troubleshooting (under construction)
+### Microsoft Windows
+
+### Apple MacOS
+
+### GNU/Linux
+
+### ChromeOS
