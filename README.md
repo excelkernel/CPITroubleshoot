@@ -71,3 +71,44 @@ _MacOS installer is currently unavaiable._
 15. Run, log in and waddle around.
 
 ## ChromeOS
+### Installing via Wine:
+Preparation:
+1. Go to settings.
+2. Choose Developer Settings.
+3. Enable Linux Development Environment.
+Actual installation (same steps as GNU/Linux):
+1. Install [Wine](https://www.winehq.org/).
+2. Install [Winetricks](https://github.com/Winetricks/winetricks).
+3. Head to CPI website and download any client version under _Windows_ section. Portable is recommended to avoid problems.
+4. Extract content of .zip archive using 7-zip, PeaZip or any other archive utility.
+5. Lauch terminal and start Winetricks (``` sh winetricks ```).
+6. Choose _Default Wineprefix_ option.
+7. Choose _Run an arbitrary excutable (.exe/.msi/.msu)_ option.
+8. Select .exe file you just extracted on Thunar (or any other file manager) pop-up.
+9. Proceed with installation if you did prefer to use _Installer_ option.
+
+
+## Pale Moon (for most OCs):
+_Important: You need to install Adobe FLash to play via Pale Moon._
+### Microsoft Windows and Apple MacOS
+1. Head to [Pale Moon](https://www.palemoon.org/) website.
+2. Go to Downloads.
+3. Pick package for your system and install it.
+4. Head to [CPI](https://cpimagined.net/) website.
+5. Log in and play.
+### GNU/Linux and ChromeOS
+1. Open terminal.
+2. Install Pale Moon package.
+   Arch Linux (requires yay or Aura):
+   ``` yay -S palemoon-bin / sudo aura -A palemoon-bin ``` _Important: it is highly recommended to install pre-built binary package (palemoon-bin) instead of source (palemoon), because compiling a web browser is long-and-hard way for your pc._
+   Ubuntu and ChromeOS (maybe):
+   ```
+   sudo apt install curl apt-transport-https -y
+   curl -fsSL https://download.opensuse.org/repositories/home:stevenpusser/xUbuntu_22.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home_stevenpusser.gpg > /dev/null
+   echo 'deb http://download.opensuse.org/repositories/home:/stevenpusser/xUbuntu_22.04/ /' | sudo tee /etc/apt/sources.list.d/home:stevenpusser.list
+   sudo apt update
+   sudo apt install palemoon
+   palemoon -v
+   ```
+   _Note: looks like binary for Ubuntu is not avaiable, and you'll need to compile it... Well, good luck._
+3. Head to CPI website, log in, blah-blah.
