@@ -2,7 +2,7 @@
 Setup and Trobleshoot guide for CPImagined.
 
 
-So, some CPImagined players had some difficulty intsalling client, and i decided to write a quick installation guide. 
+So, some CPImagined players had difficulty intsalling client, and i decided to write a quick installation guide. 
 It also has troubleshoot section, if something works not-as-designed after installation.
 
 ## Microsoft Windows
