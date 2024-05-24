@@ -98,9 +98,11 @@ _Important: You need to install Adobe Flash to play via Pale Moon._
 ### GNU/Linux and ChromeOS
 1. Open terminal.
 2. Install Pale Moon package.
-   Arch Linux (requires yay or Aura):
+   
+Arch Linux (requires yay or Aura):
    ``` yay -S palemoon-bin / sudo aura -A palemoon-bin ``` _Important: it is highly recommended to install pre-built binary package (palemoon-bin) instead of source (palemoon), because compiling a web browser is long-and-hard way for your pc._
-   Ubuntu and ChromeOS (maybe):
+   
+Ubuntu and ChromeOS (maybe):
    ```
    sudo apt install curl apt-transport-https -y
    curl -fsSL https://download.opensuse.org/repositories/home:stevenpusser/xUbuntu_22.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home_stevenpusser.gpg > /dev/null
