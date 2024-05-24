@@ -155,7 +155,7 @@ _Problem: When i want to log in, it shows '502 Bad Gateway'. What's this?_
 
 _Problem: It shows '403 Forbidden'._
     
-    > > You just headed to restricted area. Leave. __Now.__
+    > > You just headed to restricted area. Leave. Now.
 
 _Problem: I forgot my password. How do i recover it?_
     
@@ -163,13 +163,13 @@ _Problem: I forgot my password. How do i recover it?_
 
 _Problem: I want to change email. Who should i contact?_
     
-    > > Nobody, basically. Imagined doesn't use emails, and that's the point why you need to cantact staff when resetting password. But emails are kept in database.
+    > > Nobody, basically. Imagined doesn't use emails, and that's the point why you need to contact staff when resetting password. But emails are kept in database.
 
 _Problem: I want to wipe out my email from database._
     
     > > Contact Jeff.
 
-_Problem: I was banned for saying <needed information here>. What should i do?_
+_Problem: I was banned for saying [word]. What should i do?_
     
     > > Contact Jeff.
 
