@@ -76,6 +76,7 @@ Preparation:
 1. Go to settings.
 2. Choose Developer Settings.
 3. Enable Linux Development Environment.
+
 Actual installation (same steps as GNU/Linux):
 1. Install [Wine](https://www.winehq.org/).
 2. Install [Winetricks](https://github.com/Winetricks/winetricks).
