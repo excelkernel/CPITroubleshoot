@@ -1,6 +1,6 @@
 # CPImagined Setup and Troubleshooting
 Setup and Trobleshoot guide for CPImagined.
-
+Formatting is goofy-ahh at moment. Sorry about this.
 
 So, some CPImagined players had difficulty intsalling client, and i decided to write a quick installation guide. 
 It also has troubleshoot section, if something works not-as-designed after installation.
