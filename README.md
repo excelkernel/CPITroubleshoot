@@ -63,8 +63,8 @@ _MacOS installer is currently unavaiable._
     Categories=Wine
     ```
  _Important: Don't forget to insert needed info instead of placeholders._
- 13. Save file to Desktop folder and quit.
- 14. Make it executable:
+13. Save file to Desktop folder and quit.
+14. Make it executable:
     ``` 
     chmod +x $USER/Desktop/app-name.desktop
     ```
@@ -89,7 +89,7 @@ Actual installation (same steps as GNU/Linux):
 
 
 ## Pale Moon (for most OCs):
-_Important: You need to install Adobe FLash to play via Pale Moon._
+_Important: You need to install Adobe Flash to play via Pale Moon._
 ### Microsoft Windows and Apple MacOS
 1. Head to [Pale Moon](https://www.palemoon.org/) website.
 2. Go to Downloads.
