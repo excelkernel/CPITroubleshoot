@@ -1,4 +1,4 @@
-# CPImagined client Setup and Troubleshooting
+# CPImagined Setup and Troubleshooting
 Setup and Trobleshoot guide for CPImagined.
 
 
@@ -117,9 +117,53 @@ _Important: You need to install Adobe Flash to play via Pale Moon._
 
 ## Troubleshooting (under construction)
 ### Microsoft Windows
+_Problem: Client shows white screen instead of connecting to site._
+> Try to clear cache of client. Hit 'Clear cache' in the top menu.
+> If clearing cache doesn't help, try to reinstall client. It is recommended to download it again to be sure that this is not an downloading issue.
+> Check your firewall and Defender settings. White-list the client. 
+> If nothing here helps (uncommon case), try contacting Jeff in #support channel (CPI Discord).
 
+_Problem: SmartScreen blocks executing._
+> That's an signature missing issue. Click 'Advanced' option. Then tab 'Yes' / 'Allow' / 'Execute anyway' button.
+
+_Problem: Defender blocks and/or deletes .exe file._
+> White-list .exe file.
+> You can also just disable Defender. 'Unsafe' option, but increases system performance and doesn't annoy you with messing up your files.
 ### Apple MacOS
+_Problem: When executing app, 'The application "CPImagined Desktop" can't be opened' shows up._
+> You may broke client files, if you extracted .zip archive using MacOS default archive utility. You should use The Unarchiver from App Store.
 
+_Problem: App won't execute. '"CPImagined Desktop" cannot be opened because Apple connot check it for malicious software.'_
+> That's an signature missing issue too. To allow executing files without signature, you must allow application downloaded from identified developers in Privacy & Security.
 ### GNU/Linux
+_Problem: .desktop file wont execute._
+> You probably forgot to mark it executable. Follow point 14 in GNU/Linux guide.
+### General
+_Problem: I want to go fullscreen. How to do it?_
+> F11 or Fn+F11; but fullscreen is currently unavaiable in client.
 
-### ChromeOS
+_Problem: When i want to log in, it shows '502 Bad Gateway'. What's this?_
+> It means server is currently down. Commonly it means that game is being updated.
+
+_Problem: It shows '403 Forbidden'._
+> You just headed to restricted area. Leave. __Now.__
+
+_Problem: I forgot my password. How do i recover it?_
+> DM Jeff or Sora. 
+
+_Problem: I want to change email. Who should i contact?_
+> Nobody, basically. Imagined doesn't use emails, and that's the point why you need to cantact staff when resetting password. But emails are kept in database.
+
+_Problem: I want to wipe out my email from database._
+> Contact Jeff.
+
+_Problem: I was banned for saying <needed information here>. What should i do?_
+> Contact Jeff.
+
+_Problem: My penguin doesn't show._
+> Client or game will forget your penguin after some time, for security reasons. Just re-login.
+
+_Problem: It shows 'Incorrect code' for book codes, even if they're written perfectly._
+> Book codes are limited to 5 per hour. Keep it in mind.
+
+
